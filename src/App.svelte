@@ -1,10 +1,13 @@
 <script>
+	import Clock from './Clock.svelte';
+
 	export let name;
 </script>
 
 <main>
 	<h1>{name}</h1>
 	<p>just testing out svelte here</p>
+	<Clock />
 </main>
 
 <style>
